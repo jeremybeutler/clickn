@@ -1,0 +1,48 @@
+user -- oauth
+one to one
+
+user -- preclick
+one to many
+
+user -- click
+one to many
+
+user -- event
+many(<12) to many(<infinate)
+one way embedding - users array embedded in event
+OR
+user -- event
+many(<12) to many(<20)
+two way embedding, which also requires us to set a cutoff time for reviewing an event
+
+click -- event
+many(<infinite) to many(<190)
+
+click -- chatroom
+one to one
+embedded
+
+message -- chatroom
+one to many (bucketed)
+
+message -- user
+one to many
+
+message -- event
+one to many
+
+event -- user(owner)
+one to many
+
+event -- group_type
+one to many
+
+event -- tag
+many(<20) to many(<infinate)
+
+event -- chatroom
+one to one
+embedded
+
+event -- preclick
+one to many

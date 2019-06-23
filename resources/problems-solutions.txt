@@ -1,0 +1,11 @@
+problems/solutions:
+
+a user chooses not to click someone and regrets it or the user clicks a person and they don't click back. if that user can see the archived event with a list of users, they can use means other than through the app to find that person.
+-> maybe a limited option to modify your clicks
+
+a user wants to schedule an event but the app is made to be used spontaneously
+->  we could offer scheduled listener for relevant events that pop up in a given area, within their desired time frame, and notify them when they do
+
+how do we keep an equilibrium between hosts that supply events and guests that attend them
+->  make it easy to host by allowing other people to bring things for the event. but this comes at the expense of the guest who expects an event to be ready when they join. 
+    knowing that the event is still being organized is useful for deciding whether or not to join the event 
