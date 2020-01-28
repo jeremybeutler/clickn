@@ -2,10 +2,10 @@ user -- oauth
 one to one
 
 user -- preclick
-one to many
+many to one
 
 user -- click
-one to many
+many to one
 
 user -- event
 many(<12) to many(<infinate)
